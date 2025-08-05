@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "moredelight-patch",
+	"version": "${version}",
+	"name": "MoreDelight Patch",
+	"description": "A Polymer Patch mod for More Delight.",
+	"authors": [
+		"Sun_Phoen1x"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/moredelight-patch/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.phoen1x.impl.MoreDelightPatch"
+		]
+	},
+	"mixins": [
+		"moredelight-patch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*",
+		"polymer-core": ">=0.13.3",
+		"polymer-resource-pack": ">=0.13.3",
+		"polymer-virtual-entity": ">=0.13.3"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
